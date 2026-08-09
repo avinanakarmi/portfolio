@@ -1,14 +1,20 @@
 import { useState, useEffect } from 'react';
 import About from './sections/about';
+import Highlights from './sections/highlights';
 import Education from './sections/education';
+import Teaching from './sections/teaching';
+import Publications from './sections/publications';
 import Skills from './sections/skills';
 import Experiences from './sections/experiences';
 
 const navItems = [
   { id: "about", label: "About" },
   { id: "education", label: "Education" },
+  { id: "teaching", label: "Teaching" },
+  { id: "publications", label: "Publications" },
   { id: "skills", label: "Skills" },
   { id: "experiences", label: "Experience" },
+  { id: "highlights", label: "Recent" },
 ];
 
 const App = () => {
@@ -52,7 +58,7 @@ const App = () => {
           <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="text-lg font-bold text-textPrimary hover:text-accentTeal transition">
             an
           </a>
-          <div className="flex gap-1">
+          <div className="flex flex-wrap justify-end gap-1">
             {navItems.map(({ id, label }) => (
               <a
                 key={id}
@@ -75,8 +81,11 @@ const App = () => {
       <main className="pt-16">
         <About />
         <Education />
+        <Teaching />
+        <Publications />
         <Skills />
         <Experiences />
+        <Highlights />
       </main>
 
       {/* Footer */}

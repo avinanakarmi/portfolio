@@ -6,21 +6,21 @@ const experiencesData = [
 		role: "Software Engineer",
 		company: "Deerhold Pvt. Ltd. (Sibel Health)",
 		details:
-			"FastAPI/PostgreSQL backend; real-time patient vitals UI in React (WebSockets); BDD testing.",
+			"Built FastAPI/PostgreSQL backend deployed via microservices on AWS (Pydantic, SQLAlchemy); developed real-time patient vitals UI in React using WebSockets and contributed to a Next.js 13 vitals monitoring system with React Query; wrote behavior-driven tests using Behave.",
 	},
 	{
 		year: "Jul 2020 – Jan 2022",
 		role: "Associate Software Engineer",
 		company: "Deerhold Pvt. Ltd. (gWell Health)",
 		details:
-			"React Native health app features (telehealth, biometrics, background audio); Jest unit tests; ESLint.",
+			"Implemented telehealth, biometrics login, file upload/download, and a background audio player in React Native for a DNA-powered wellness app; set up Jest with React Native Testing Library for unit tests and integrated ESLint for code quality.",
 	},
 	{
 		year: "Aug 2018 – May 2019",
 		role: "Software Developer Intern",
-		company: "Digital Media Team, Kathmandu",
+		company: "Digital Media Team · Deerwalk Institute of Technology, Kathmandu",
 		description:
-			"React Native learning app; Laravel news portal with MVC architecture; user/role management; database design."
+			"Built a React Native learning app (DLC Mobile, 10K+ downloads) and a Laravel news portal (DWIT News) with MVC architecture and Blade templating; designed the database architecture and implemented user, role, and content management."
 	},
 ];
 

@@ -1,26 +1,26 @@
 const skillCategories = [
 	{
-		category: "Research & AI",
+		category: "AI System Design & Evaluation",
 		skills:
-			"Multimodal LLMs (GPT, Gemini, Claude), RAG, Chain-of-Verification, Instruction Tuning, Prompt Engineering",
+			"Reasoning-guided AI pipeline design, Evidence-grounded response generation, LLM evaluation and benchmarking, Evaluation harness development, RAG, Chain-of-Verification, Prompt engineering",
 		color: "border-accentTeal",
 	},
 	{
-		category: "Study Design & Analysis",
+		category: "Multimodal AI & Human-AI Interaction",
 		skills:
-			"User Studies, Thematic Analysis, Participatory Design, Community-Based Participatory Action Research",
+			"Information visualization, Multimodal reasoning (text and visualization), Human-centered AI research methods, Multimodal LLMs (GPT, Gemini, Claude)",
 		color: "border-accentLavender",
 	},
 	{
-		category: "Data & Visualization",
+		category: "Research Methods & Data Analysis",
 		skills:
-			"D3.js, Tableau, Matplotlib, Seaborn, React (Recharts), PostgreSQL + pgvector, Pandas, NumPy",
+			"Human-subject studies, Community-based participatory research, Qualitative thematic analysis, Statistical evaluation, Participatory design",
 		color: "border-accentYellow",
 	},
 	{
-		category: "Engineering",
+		category: "Programming, Data & Visualization",
 		skills:
-			"FastAPI, React / Next.js, React Native, Docker, Git",
+			"Python, JavaScript, D3.js, Tableau, Matplotlib, Seaborn, SQL, Pandas, NumPy, scikit-learn, React / Next.js, React Native, FastAPI, PostgreSQL, Docker, Git",
 		color: "border-accentTeal",
 	},
 ];
